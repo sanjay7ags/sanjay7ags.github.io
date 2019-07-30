@@ -105,6 +105,42 @@ SANJAY AGS 2019, ALL RIGHTS RESERVED</span>
     <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
   </div>
 </nav>
+	<html>
+ <head>
+  <h1 align="center"> Disable Inspect Element  </h1>
+ </head>
+
+<body oncontextmenu ="return false;">
+
+</body>
+
+<script>
+
+document.onkeydown=function(e)
+{
+ if(event.keyCode == 123)
+ {
+  return false;
+ }
+
+ if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0))
+ {
+  return false;
+ }
+
+ if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0))
+ {
+  return false;
+ }
+
+ if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0))
+ {
+  return false;
+ }
+}
+
+</script>
+</html>
 
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -114,13 +150,7 @@ SANJAY AGS 2019, ALL RIGHTS RESERVED</span>
 <div class="w3-main" style="margin-left:300px;margin-top:43px;">
 
   <!-- Header -->
-	-webkit-touch-callout: none; /* iOS Safari */
- -webkit-user-select: none; /* Safari */
- -khtml-user-select: none; /* Konqueror HTML */
- -moz-user-select: none; /* Firefox */
- -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently */
-
+	
   <header class="w3-container" style="padding-top:22px">
     <h5><b><i class="fa fa-dashboard"></i> SANJAY AGS 2019 STATISTICS</b></h5>
   </header>
